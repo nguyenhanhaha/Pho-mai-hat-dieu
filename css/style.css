@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+	font-family: 'Roboto', sans-serif; color:#666666; font-size:16px
+}
+.top-bar{
+	width: 100%; height:60px; line-height: 60px;
+
+}
+.top-bar a{
+	color:white
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 8px 20px; border-radius: 5px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	background-color:#000000 ; color: #967e61
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #000000; padding-bottom: 0; padding-top: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid #967e61
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color:#967e61
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #967e61
+}
+#about a{
+	text-decoration:none
+}
+#about a:hover{
+	color:#FFFFFF
+}
+main{
+	width: 100%; min-height: 600px
+}
+footer{
+	width: 100%; min-height: 300px
+}
+footer .bottom-bar{
+	background-color:#967E61
+}
+footer .button a{
+	color:#00000;
+	background-color:#967E61;
+	text-decoration:none
+}
+.gach-chan{
+	border-bottom: 2px solid #967e61
+}
+.navbar-nav .nav-item .nav-link:hover{
+color: #FFC113	
+}
+.bottom-bar{
+	width:100%; height:50px; line-height: 50px
+}
+#cungvua a{
+	text-decoration: none;
+	color: #464646
+}
+#cungvua a:hover{
+	color: #464646	
+}
+
+/*main .container{
+	display: 
+}*/
+h2{
+	color: #2F80ED
+}
+.page-header{
+	width: 100%; min-height: 300px
+}
+
+
+#banhkep a{
+	text-decoration: none;
+	color: #464646
+}
+#banhkep a:hover{
+	color: #464646	
+}
+
+#suasuachua a{
+	text-decoration: none;
+	color: #464646
+}
+#suasuachua a:hover{
+	color: #464646	
+}
+#phomai a{
+	text-decoration: none;
+	color: #464646
+}
+#phomai a:hover{
+	color: #464646	
+}
+#page-header{
+width: 100%; min-height: 300px; background: url( ../images/kashew-5_86128506-2c6f-46d1-b125-dc0f23470bda.jpg); background-repeat: no-repeat; background-size: cover; background-position: center}
+
+#map .img{
+	width:500px; height:500px
+}
+
+#anh{
+	width: 100%; min-height: 500px; background: url( ../images/kashew-5_86128506-2c6f-46d1-b125-dc0f23470bda.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; 
+}
+.nav .navbar .nav-item ul li:hover ul{
+	top:100%;
+	visibility:visible;
+	left:0;
+	opacity:1 }
+#thotphomai{
+	width: 100%; min-height: 500px; background: url( ../images/Q5A6417-Kashew-20210406.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; 
+}
+#tructuyen{
+	width: 100%; min-height: 500px; background: url(  ../images/Q5A7173-kashew-20210602-websize_e1e36130-b657-4a70-9b04-88347bc8c944.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; 
+}
+div .center{
+	display: flex;
+	justify-content:center
+}
